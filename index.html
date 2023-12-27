@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/my-picture.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/styles.css"/>
+    <title>Niel's Portfolio</title>
+</head>
+<body>
+    
+    <!-- TOP NAV -->
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project-1">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    
+    <main>
+
+        <!-- Section 1 (Introduction) -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Welcome to My Portfolio!</h1>
+                <p>Hi, I'm Niel! I am a Cloud Engineer and this is my porfolio website.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Section 2 (ABOUT) -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="assets/images/my-picture.jpg" alt="My Picture">
+                    </div>
+                    <div class="about-text">
+                        <h2>Niel Mark Sanchez</h2>
+                        <h4>Cloud Engineer</h4>
+                        <p>Hello there! I'm a dedicated cloud engineer, adept at navigating the complexities of cloud computing to build scalable and robust solutions. My expertise lies in orchestrating cloud-native architectures using platforms like AWS. From designing fault-tolerant systems to optimizing performance, I thrive on the challenges of the cloud landscape. With a commitment to efficiency and security, I'm passionate about crafting innovative solutions that leverage the power of cloud technologies. Let's embark on a journey to elevate your digital infrastructure and bring your ideas to life in the cloud.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 4 (Contacts) -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/niel-mark-sanchez-b216b4274/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/nielmark" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100005023684169" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.credly.com/badges/f52cbeca-ae45-40bb-84da-61bd5713ca87" traget="_blank"><i class="fab fa-aws"></i></a>
+                    <a href="https://drive.google.com/file/d/1i57JXlFFHx_gL8gsxwiV-A8L0GcugxnZ/view?usp=sharing" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p><i class="fas fa-copyright"></i> Copyright Charles Angelo Lim 2022</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
